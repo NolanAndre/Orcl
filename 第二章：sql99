@@ -1,0 +1,17 @@
+SQL92/【99】标准的四大分类 
+       （A）DML（数据操纵语言）：select,insert,update,delete  
+       （B）DDL（数据定义语言）：create table,alter table，drop table，truncate table  。。。
+       （C）DCL（数据控制语言）：grant 权限 to scott，revoke 权限 from scott  。。。
+       （D）TCL（事务控制语言）：commit，rollback，rollback to savepoint 。。。
+
+oracleSQL与SQL92/99的关系
+SQL92/99标准，访问任何关系型数据库的标准
+oracleSQL语言，只访问Oracle数据库服务器的专用语言
+
+Java技术和oracleSQL的关系
+JDBC-->使用OracleSQL语法-->Oracle服务器--->orcl数据库-->表-->记录
+Hibernate-->使用OracleSQL语法-->Oracle服务器
+MyBatis-->使用OracleSQL语法-->Oracle服务器
+
+
+声明：我做的笔记，主要以在工作中【JavaEE工程师】角度，操作数据库【常用】功能
